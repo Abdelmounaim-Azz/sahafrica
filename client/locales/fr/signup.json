@@ -1,0 +1,22 @@
+{
+  "yupuser":"veuillez entrer un nom d'utilisateur",
+  "minname":"Le minimum est 3 caractéres.",
+  "email1":"veuillez entrer une adresse e-mail.",
+  "email2":"mettez une adresse email valide.",
+  "password":"Vous devez fournir un mot de passe.",
+  "minpass":"Le mot de passe est trop court (8 caractères au minimum).",
+  "match1":"Le mot de passe nécessite au moins une lettre.",
+  "match2":"Le mot de passe nécessite au moins une chiffre.",
+  "title":"Rejoignez Sahafrica ¤ Sahafrica",
+  "join":"Rejoignez Sahafrica maintenant",
+  "createaccount":"Créez votre compte",
+  "labeluser":"Nom d'utilisateur",
+  "labelemail":"Email",
+  "labelpassword":"Mot de passe",
+  "signup":"S'inscrire",
+  "already":"Vous avez déjà un compte?",
+  "signin":" Se connecter.",
+  "errorPassword":"Mot de passe couramment utilisé sur d'autres sites.",
+  "errorEmail":"E-mail déjà prise.",
+  "errorUser":"Nom d'utilisateur existe déjà."
+}

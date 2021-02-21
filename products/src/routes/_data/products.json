@@ -1,0 +1,491 @@
+[
+  {
+    "name":"KEEXS Classic 3.0",
+    "image":"/img/shoe1.jpg",
+    "brand":"KEEXS ",
+    "price":60.99,
+    "category":"Shoes",
+    "countInStock":"10",
+    "description":"This Sneaker Art draws inspiration from works of the legendary Lemi Ghariokwu, a Nigerian artist and designer who is most renowned for providing many of the original cover images for the recordings of Fela Kuti!",
+    "rating":4.4,
+    "numReviews":5,
+    "reviews":[
+      {
+        "userName":"abdelmounaimazz",
+        "title":"I could not be more happier!",
+      "rating":"5",
+      "text":"super comfortable..and good style!",
+      "helpful":[
+        { "owner":"abdelmounaimazz"},
+        { "owner":"KAEDE RUKAWA"},
+        { "owner":"OOTORI KYOUYA"},
+        { "owner":"KURORO LUCILFER"},
+        { "owner":"Levi Ackerman"}
+      ]
+      ,
+      "createdAt":"2021-01-17T17:16:10.016Z"
+      },
+      {
+        "userName":"John Doe",
+        "title":"robust shoes with good design.",
+      "rating":"5",
+      "text":"Shoes fit great, look good and feel like they will last.",
+      "helpful":[
+        { "owner":"Eren Yeager"},
+        { "owner":"Sasha Blouse "},
+        { "owner":"Levi Ackermann"},
+        { "owner":"Zeke Yeager"},
+        { "owner":"Mikasa Ackermann"}
+      ],
+      "createdAt":"2021-01-16T17:16:10.016Z"
+      },
+      {
+      "userName":"Will Smith",
+      "title":"just wow.",
+      "rating":"5",
+      "text":"I’m sooooooo impressed with these shoes. KEEXS has always been my favorite brand but without being able to try them on at the store, I was skeptical of the fit. These are by far THE MOST comfortable shoes. I work in a prison on concrete floors and these give my great support. I’ll be ordering more for sure!",
+      "helpful":[
+        { "owner":"Tanjiro Kamado"},
+        { "owner":"Nezuko Kamado "},
+        { "owner":"Zenitsu Agatsuma"},
+        { "owner":"Inosuke Hashibira"}
+      ],
+      "createdAt":"2021-01-20T16:16:10.016Z"
+      },
+      {
+        "userName":"Jane Doe",
+        "title":"the box was in bad condition,shoes remain untouched .",
+        "rating":"3",
+        "text":"My son wears a size 15 and was in need of white sneakers. I was not so happy with the delivery but  these sneakers are great and fit him well.Thank you",
+        "helpful":[
+          { "owner":"Mushoku Tensei"},
+          { "owner":" Rudeus Greyrat "},
+          { "owner":"Roxy Migurdia"},
+          { "owner":"Paul Greyrat"}
+        ],
+        "createdAt":"2021-02-02T20:30:10.016Z"
+      }
+      ,
+      {
+        "userName":"Kichaka Magoro",
+        "title":"fantastico!",
+        "rating":"4",
+        "text":"He comprado para mi y mi hijo Komara diversos diseño de calzado de esta marca , fantastico.",
+        "helpful":[
+          { "owner":"Light Yagami Kira"},
+          { "owner":" L Lawliet"},
+          { "owner":"Hideki Ryuga"}
+        ],
+        "createdAt":"2021-02-01T20:30:10.016Z"
+      }
+    ],
+    "userId":"60046f933ad849002363b7d9"
+  },
+  {
+  "name":"Hesey Unisex ",
+    "image":"/img/shoe2.jpg",
+    "brand":"Hesey Designs",
+    "price":50.99,
+    "category":"Shoes",
+    "countInStock":"100",
+    "description":"it is a Nigerian fashion brand,They designed this sneaker to be unisex and custom made to size.",
+    "rating":4.6,
+    "numReviews":8,
+    "reviews":[
+      {"userName":"abdelmounaimazz",
+        "title":"shoe dear to my heart.",
+      "rating":"5",
+      "text":"this is my new favourite sneaker...it is flexible and has good quality.",
+      "helpful":[
+        { "owner":"Shinichi Izumi."},
+        { "owner":"Migi"},
+        { "owner":"Satomi Murano"},
+        { "owner":"Kana Kimishima"},
+        { "owner":"Shirou Kuramori"},
+        { "owner":"Hideo Shimada"},
+        { "owner":"Takeshi Hirokawa"}
+      ],
+      "createdAt":"2021-01-18T17:16:10.016Z"
+      }
+      ,
+      {
+        "userName":"Saka Tinibu",
+        "title":"my dream shoes come true.",
+      "rating":"5",
+      "text":"I  want a crisp pair of white, stylish, comfortable, and durable shoes. This is almost the perfect pair.",
+      "helpful":[
+        { "owner":"Monkey D. Luffy"},
+        { "owner":"Roronoa Zoro "},
+        { "owner":"Nami"},
+        { "owner":"Usopp"},
+        { "owner":"Sanji"},
+        { "owner":"Tony Tony Chopper"},
+        { "owner":"Nico Robin"},
+        { "owner":"Franky"}
+      ],
+      "createdAt":"2021-01-23T18:16:10.016Z"
+      },
+      {
+      "userName":"Annan Akinjide",
+      "title":"fair price and good quality.",
+      "rating":"5",
+      "text":"I am very pleased with these shoes for the price paid and also the quality.",
+      "helpful":[
+        { "owner":"Keyaruga"},
+        { "owner":"Flare Arlgrande "},
+        { "owner":"Setsuna"},
+        { "owner":"Eve Reese"},
+        { "owner":"Norn Clataliss"},
+        { "owner":"Kureha Krylet"}
+      ],
+      "createdAt":"2021-02-01T10:16:10.016Z"
+      },
+      {
+        "userName":"Sudi Anikulapo-Kuti",
+        "title":"these shoes are invincible.",
+        "rating":"5",
+        "text":"I've walked/jogged in these almost every day for the 2 weeks I've had them.So far So good,they fit well and they feel good." ,
+        "helpful":[
+          { "owner":"Naruto Uzumaki"},
+          { "owner":"Sasuke Uchiha"},
+          { "owner":"Sakura Haruno"},
+          { "owner":"Kakashi Hatake"},
+          { "owner":"Sarada Uchiha"},
+          { "owner":"Boruto Uzumaki"}
+        ],
+        "createdAt":"2021-02-03T09:30:10.016Z"
+      }
+      ,
+      {
+        "userName":"Mbita Akenzua",
+        "title":"Buy them..you would not regret.",
+        "rating":"5",
+        "text":"the quality of the material is very good, and also the comfort it gives to the feet, the design is excellent. they are light, I definitely recommend them... I would buy them again..",
+        "helpful":[
+          { "owner":"Yuji Itadori"},
+          { "owner":"Satoru Gojo"},
+          { "owner":"Megumi Fushiguro"},
+          { "owner":"Sukuna"}
+        ],
+        "createdAt":"2021-01-12T06:30:10.016Z"
+      },
+      {
+        "userName":"Mosiya Akintola",
+        "title":"I recommend them for everyone looking for comfort.",
+        "rating":"5",
+        "text":"I discarded my other shoes, I just felt that I should JUST DO IT. This pair is very comfortable.",
+        "helpful":[
+          { "owner":"Sae Chabashira"},
+          { "owner":"Chie Hoshinomiya"},
+          { "owner":"Tomonari Mashima"}
+        ],
+        "createdAt":"2021-02-02T20:30:10.016Z"
+      }
+      ,
+      {
+        "userName":"Jumaane Okereke",
+        "title":"they make my feet sweety..and smell bad.",
+        "rating":"3",
+        "text":"These shoes are  lightweight, but not made of breathable material, keeping my feet sweety.",
+        "helpful":[
+          { "owner":"Park Ilpyo"},
+          { "owner":"Jegal Taek"},
+          { "owner":"Jeon Jugok"}
+        ],
+        "createdAt":"2021-01-30T11:30:10.016Z"
+      },
+      {
+        "userName":"Hamza AITHOU",
+        "title":"buy them for the mars design on them.",
+        "rating":"4",
+        "text":"shoes make you land to MARS!Elon Musk is proud.",
+        "helpful":[
+          { "owner":"Asta"},
+          { "owner":"Yuno"}
+        ],
+        "createdAt":"2021-02-30T01:30:10.016Z"
+      }
+    ],
+    "userId":"60046f933ad849002363b7d9"
+  },
+  {
+    "name":"Robson Kodiak ",
+    "image":"/img/shoe3.png",
+    "brand":"Oliberté",
+    "price":70,
+    "category":"Shoes",
+    "countInStock":"50",
+    "description":"The Robson is made to withstand tough environments. These durable waterproof boots are treated with 3M Scotchgard and feature the highly abrasion resistant CORDURA ballistic nylon shell",
+    "rating":4.2,
+    "numReviews":4,
+    "reviews":[
+      {
+      "userName":"abdelmounaimazz",
+      "title":"Masterpiece..combines whatever you wish in a shoes.",
+      "rating":"4",
+      "text":"A masterpiece and does not only look like fun, it really is..The boot overall is very comfortable and falls between a traditional work boot and a sneaker",
+      "helpful":[
+        { "owner":"EMMA"},
+        { "owner":"RAY"},
+        { "owner":"DON"}
+      ],
+      "createdAt":"2021-01-11T10:17:10.016Z"
+      },
+      {
+        "userName":"Jaali Madaki",
+        "title":"Robust but a bit heavy.",
+        "rating":"4",
+        "text":"They look classy and I can wear them casually with my jeans or semi-formally with khakis to work.",
+        "helpful":[
+          { "owner":"Yuki Yoshikawa"},
+          { "owner":"Tooru Ishikawa"},
+          { "owner":"Shuu Iura"}
+        ],
+        "createdAt":"2021-02-10T06:40:10.016Z"
+      },
+      {
+        "userName":"Jamba Saro-Wiwa",
+        "title":"my son loved them.",
+        "rating":"4",
+        "text":"They are a really nice looking shoe, but also surprisingly comfortable. They are not light weight, yet don't feel cheap. Even my son was impressed by the look of the shoe, and you know how young folk are about their shoes!",
+        "helpful":[
+          { "owner":"Kurisu Makise"},
+          { "owner":"Rintaro Okabe"}
+        ],
+        "createdAt":"2021-01-13T12:30:10.016Z"
+      }
+      ,
+      {
+        "userName":"Bwana Nzeogwu",
+        "title":"unreal shoes,simply awesome.",
+        "rating":"5",
+        "text":"Fantastico..felt strange wearing them at first,but everyone falls in love with them,specially the design.",
+        "helpful":[
+          { "owner":"Mayuri Shiina"}
+        ],
+        "createdAt":"2021-02-03T11:30:10.016Z"
+      }
+    ],
+    "userId":"60046f933ad849002363b7d9"
+  },
+  {
+    "name":"abyssinian PURE mSh ",
+    "image":"/img/shoe4.jpg",
+    "brand":"Solerebels",
+    "price":70,
+    "category":"Shoes",
+    "countInStock":"70",
+    "description":"Slip-on shoes featuring a super soft hand-spun and hand-loomed cotton upper with beautiful hand-stitching, a cotton-lined interior for maximum comfort, and capped off with our signature recycled tire sole.",
+    "rating":4.8,
+    "numReviews":6,
+    "reviews":[
+      {
+      "userName":"abdelmounaimazz",
+      "title":"the cutton inside really warms my feet.",
+      "rating":"5",
+      "text":"remarkably comfortable..and super soft!",
+      "helpful":[
+        { "owner":"Kenzo Tenma"},
+        { "owner":"Johan Liebert"},
+        { "owner":"Anna Liebert"},
+        { "owner":" Inspector Lunge"},
+        { "owner":"Dieter"}
+      ],
+      "createdAt":"2021-01-15T12:18:10.016Z"
+      },
+      {
+        "userName":"Neema Buhari",
+        "title":"Love'em.",
+        "rating":"5",
+        "text":"So far, I’m liking these shoes quite a lot. They’re understated but not too much like a slipper, so I can wear them to class or around town casually.",
+        "helpful":[
+          { "owner":"Yuga Aoyama"},
+          { "owner":"Mina Ashido"},
+          { "owner":"Tsuyu Asui"},
+          { "owner":"Tenya Ida"},
+          { "owner":"Ochaco Uraraka"}
+        ],
+        "createdAt":"2021-01-11T11:16:10.016Z"
+        },
+        {
+          "userName":"Shani Odili",
+          "title":"For anyone with sensitive skin.",
+          "rating":"5",
+          "text":"Fit right, comfortable. Inexpensive compared to similar brands and same style. If they last a couple of years I’ll be delighted.",
+          "helpful":[
+            { "owner":"Mashirao Ojiro"},
+            { "owner":"Denki Kaminari"},
+            { "owner":"Eijiro Kirishima"},
+            { "owner":"Koji Koda"},
+            { "owner":"Rikido Sato"}
+          ],
+          "createdAt":"2021-02-13T09:30:10.016Z"
+        }
+        ,
+        {
+          "userName":"Mbita Nnamani",
+          "title":"inside feather makes it a plus.",
+          "rating":"5",
+          "text":"Love them and the color.",
+          "helpful":[
+            { "owner":"Mezo Shoji"},
+            { "owner":"Kyoka Jiroma"},
+            { "owner":"Hanta Sero"}
+          ],
+          "createdAt":"2021-01-12T06:30:10.016Z"
+        },
+        {
+          "userName":"Khary Ibori",
+          "title":"i am simply in love..man..they r good.",
+          "rating":"5",
+          "text":"I really like the casual look of these shoes. Also pretty comfy for low cost footwear. I would buy again in a heartbeat!",
+          "helpful":[
+            { "owner":"Fumikage Tokoyami"},
+            { "owner":"Shoto Todoroki"},
+            { "owner":"Toru Hagakure"}
+          ],
+          "createdAt":"2020-12-02T20:30:10.016Z"
+        }
+        ,
+        {
+          "userName":"Imanif Magoro",
+          "title":"can wear both in cold and summer.",
+          "rating":"4",
+          "text":"These shoes are keeping my feet warm and soft.",
+          "helpful":[
+            { "owner":"Katsuki Bakugo"}
+          ],
+          "createdAt":"2021-01-30T11:30:10.016Z"
+        }
+    ],
+    "userId":"60046f933ad849002363b7d9"
+  },
+  {
+    "name":"NKRUMAHS BLUE ",
+    "image":"/img/shoe5.jpg",
+    "brand":"ENZI",
+    "price":80.99,
+    "category":"Shoes",
+    "countInStock":"50",
+    "description":"The Nkrumah is a deconstructed take on a classic mid-cut that's designed for comfort and versatility. Made from Premium Full grain leather.",
+    "rating":4.8,
+    "numReviews":5,
+    "reviews":[
+      {
+      "userName":"abdelmounaimazz",
+      "title":"comfortable on feet.",
+      "rating":"5",
+      "text":"I just love it!",
+      "helpful":[
+        { "owner":"Nezu"},
+        { "owner":"Recovery Girl"},
+        { "owner":"Lunch Rush"},
+        { "owner":"Thirteen"},
+        { "owner":"Hound Dog"}
+      ],
+      "createdAt":"2021-01-13T11:19:10.016Z"
+      },
+      {
+        "userName":"Chui Effiong",
+        "title":"the service and the quality are great.",
+        "rating":"5",
+        "text":"Fit well, sharp looking and fast service.....",
+        "helpful":[
+          { "owner":"All Might"},
+          { "owner":"Eraser Head"},
+          { "owner":"Present Mic"},
+          { "owner":"Cementoss"}
+        ],
+        "createdAt":"2021-01-15T12:18:10.016Z"
+        },
+        {
+          "userName":"Kito Aguda",
+          "title":"son is in love with these shoes.",
+          "rating":"5",
+          "text":"My son loved them! He's in middle school & gets best dressed often. My little fashion guy. Lucked up & found these much cheaper than the mall.",
+          "helpful":[
+            { "owner":"Midnight"},
+            { "owner":"Snipe"},
+            { "owner":"Ectoplasm"},
+            { "owner":"Power Loader"}
+          ],
+          "createdAt":"2021-01-11T11:16:10.016Z"
+          },
+          {
+            "userName":"Jimoh Okotie-Eboh",
+            "title":"cheap compared to local stores.",
+            "rating":"5",
+            "text":"My 13 year old so picked these out online and loves them. We went to several stores looking for sneakers and couldn’t find any he liked. These fit well and look great. I like that they’re leather and will most likely last longer than others he’s had with nylon covering." ,
+            "helpful":[
+              { "owner":"Yo Shindo"},
+              { "owner":"Ms. Joke"},
+              { "owner":"Tatami Nakagame"}
+            ],
+            "createdAt":"2021-02-13T09:30:10.016Z"
+          }
+          ,
+          {
+            "userName":"Mbita Nnamani",
+            "title":"happy yet not well packaged.",
+            "rating":"4",
+            "text":"happy,fit perfect ,good early delivery,not well packaged ,thankyou 😊",
+            "helpful":[
+              { "owner":"Michael Scott"},
+              { "owner":"Dwight Schrute"},
+              { "owner":"Jim Halpert"}
+            ],
+            "createdAt":"2021-01-12T06:30:10.016Z"
+          }
+    ],
+    "userId":"60046f933ad849002363b7d9"
+  },
+  {
+    "name":"LUMUMBA BLACK",
+    "image":"/img/shoe6.jpg",
+    "brand":"ENZI",
+    "price":80.99,
+    "category":"Shoes",
+    "countInStock":"50",
+    "description":"One of Enzi original designs,it is a premium upgrade to a timeless classic sneaker. Ethically handcrafted in Ethiopia from full-grain leather and perforated suede.",
+    "rating":4.6,
+    "numReviews":3,
+    "reviews":[
+      {
+      "userName":"abdelmounaimazz",
+      "title":"Enzi is my favourite band now.",
+      "rating":"5",
+      "text":"I adore its design and its softness!",
+      "helpful":[
+        { "owner":"Pam Beesly"},
+        { "owner":"Creed Bratton"},
+        { "owner":"Jan Levinson"}
+      ],
+      "createdAt":"2021-01-14T18:19:10.016Z"
+      },
+      {
+      "userName":"Tabari Akenzua",
+      "title":"So far... so good.",
+      "rating":"5",
+      "text":"I’ve worn these almost daily. Still LOVE them. My mom asked me if they make my feet stink (they don’t!) I ordered a pair of Sanuks around the same time and tried them on... returned immediately because they were way too tight and uncomfortable.I will buy another pair of these shoes ASAP!",
+      "helpful":[
+        { "owner":"Erin Hannon"},
+        { "owner":"Angela Martin Ugh"},
+        { "owner":"Toby Flenderson"}
+      ],
+      "createdAt":"2021-01-20T17:19:10.016Z"
+      },
+      {
+      "userName":"Kobe Okeke",
+      "title":"had little dirt on them.",
+      "rating":"4",
+      "text":"I love LUMUMBA! They're comfy and make my feet happy!but they come in a bit dirty..I had to wash them.",
+      "helpful":[
+        { "owner":"Kevin Malone "},
+        { "owner":"Holly Flax cool "}
+      ],
+      "createdAt":"2021-02-14T14:19:10.016Z"
+      }
+    ], 
+    "userId":"60046f933ad849002363b7d9"
+  }
+]

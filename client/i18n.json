@@ -1,0 +1,15 @@
+{
+  "locales": ["en", "fr", "ar"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/":["home"],
+    "/signup": ["signup"],
+    "/signin":["signin"],
+    "/password_reset":["passwordreset"],
+    "/password_reset/[token]":["passwordtoken"],
+    "/account/unverified-email":["unverified"],
+    "/404":["notfound"],
+    "/emails/confirm-verification/[emailCode]":["common"]
+  }
+}

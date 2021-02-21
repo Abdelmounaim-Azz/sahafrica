@@ -1,0 +1,22 @@
+{
+  "yupuser":"Username can't be blank.",
+  "minname":"Minimum is 3 characters.",
+  "email1":"Email is Required.", 
+  "email2":"Email must be valid.",
+  "password":"You need to provide a password.",
+  "minpass":"Password is too short (minimum is 8 characters).",
+  "match1":"Password needs at least 1 letter.",
+  "match2":"Password needs at least 1 number.",
+  "title":"Join Sahafrica  ¤  Sahafrica",
+  "join":"Join Sahafrica Now",
+  "createaccount":"Create Your Account",
+  "labeluser":"Username",
+  "labelemail":"Email",
+  "labelpassword":"Password",
+  "signup":"Sign Up",
+  "already":"Already have an account?",
+  "signin":" Sign In.",
+  "errorPassword":"Password commonly used on other websites.",
+  "errorEmail":"Email already taken.",
+  "errorUser":"Username already exists."
+}
