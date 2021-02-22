@@ -19,7 +19,7 @@ interface ProductAttrs {
   rating:number;
   numReviews:number;
   reviews?:any;
-  userId: string;
+  userId?: string;
 }
 
 

@@ -1,15 +1,23 @@
 import express, { Request, Response } from 'express';
+import { body } from 'express-validator';
 import {
   NotFoundError,
   requireAuth,
   NotAuthorizedError,
-  BadRequestError
+  BadRequestError,
+  validateRequest
 } from 'azz-sahafrica';
 import { Product } from '../models/product';
 
-const router = express.Router();
+const router = express.Router(); 
 
-router.post('/api/products/:id/reviews',requireAuth, async (req: Request, res: Response) => {
+router.post('/api/products/:id/reviews',requireAuth, [
+  body('title').not().isEmpty().withMessage('Title is required'),
+  body('text').not().isEmpty().withMessage('Description is required'),
+  body('rating')
+    .isFloat({ gt: 0 })
+    .withMessage('Rating must be provided and must be greater than 0'),
+], async (req: Request, res: Response) => {
   const product = await Product.findById(req.params.id);
 
   if (!product) {

@@ -15,11 +15,13 @@ router.post(
   [
     body('name')
       .trim()
-      .escape(),
+      .escape()
+      .isLength({ min: 3}),
     body('email')
-      .normalizeEmail(),
+      .normalizeEmail()
+      .isEmail().withMessage('Email must be valid'),
     body('password')
-      .not().isIn(commonPasswords).withMessage('Password commonly used on other websites')
+      .not().isIn(commonPasswords).withMessage('Password commonly used on other websites').isLength({ min: 8})
   ],
   validateRequest,
   async (req: Request, res: Response) => {
@@ -47,7 +49,7 @@ router.post(
     
     await user.save();
 
-    // Generate JWT
+    // Generate JWT 
     const userJwt = jwt.sign(
       {
         name: user.name,

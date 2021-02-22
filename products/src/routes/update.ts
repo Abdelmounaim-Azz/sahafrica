@@ -1,7 +1,9 @@
 import express, { Request, Response } from 'express';
+import { body } from 'express-validator';
 import {
   NotFoundError,
   requireAuth,
+  validateRequest,
   isAdmin,
   NotAuthorizedError,
   BadRequestError
@@ -16,6 +18,19 @@ router.put(
   '/api/products/:id',
   requireAuth,
   isAdmin,
+  [
+    body('name').not().isEmpty().withMessage('Name is required'),
+    body('category').not().isEmpty().withMessage('Category is required'),
+    body('brand').not().isEmpty().withMessage('Brand is required'),
+    body('description').not().isEmpty().withMessage('Description is required'),
+    body('price')
+      .isFloat({ gt: 0 })
+      .withMessage('Price must be provided and must be greater than 0'),
+    body('countInStock')
+      .isFloat({ gt: 0 })
+      .withMessage('countInStock must be provided and must be greater than 0'),
+  ],
+  validateRequest,
   async (req: Request, res: Response) => {
     const product = await Product.findById(req.params.id);
 
@@ -42,7 +57,7 @@ router.put(
     new ProductUpdatedPublisher(natsWrapper.client).publish({
       id: product.id,
       name:product.name,
-      price: product.price,
+      price: product.price, 
       userId: product.userId,
       version: product.version,
       orderId:product.orderId,

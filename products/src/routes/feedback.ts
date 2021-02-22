@@ -1,11 +1,11 @@
 
 import express, { Request, Response } from 'express';
-import { NotFoundError,NotAuthorizedError,BadRequestError } from 'azz-sahafrica';
+import { NotFoundError,NotAuthorizedError,BadRequestError,requireAuth } from 'azz-sahafrica';
 import { Product } from '../models/product';
 //This route could take less code if i add get reviews by userName or something like that but it s a choice to minimize api routes.
 const router = express.Router();
 
-router.post('/api/products/:id/review/:reviewUserName', async (req: Request, res: Response) => {
+router.post('/api/products/:id/review/:reviewUserName',requireAuth, async (req: Request, res: Response) => {
  const product =await Product.findById(req.params.id);
  if(!product){
    throw new NotFoundError()

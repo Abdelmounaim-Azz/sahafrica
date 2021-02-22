@@ -13,7 +13,7 @@ import { natsWrapper } from '../nats-wrapper';
 const router = express.Router();
 
 router.put(
-  '/api/orders/:orderId',
+  '/api/orders/deliver/:orderId',
   requireAuth,
   isAdmin,
   async (req: Request, res: Response) => {

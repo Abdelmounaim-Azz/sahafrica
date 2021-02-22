@@ -13,7 +13,6 @@ const router = express.Router();
 router.delete(
   '/api/orders/:orderId',
   requireAuth,
-  isAdmin,
   async (req: Request, res: Response) => {
     const { orderId } = req.params;
 
@@ -36,7 +35,7 @@ router.delete(
         },
       });
      
-    res.status(204).send({ message: 'Order Deleted',order});
+    res.status(204).send({ message: 'Order Deleted'});
   }
 );
 

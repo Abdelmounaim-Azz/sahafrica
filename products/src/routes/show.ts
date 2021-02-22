@@ -9,7 +9,7 @@ router.get('/api/products/:id', async (req: Request, res: Response) => {
 
   if (!product) {
     throw new NotFoundError();
-  }
+  } 
 
   res.send(product);
 });
