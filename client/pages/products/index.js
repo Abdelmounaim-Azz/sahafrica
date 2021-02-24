@@ -133,7 +133,7 @@ export async function getServerSideProps(context) {
   const client = buildClient(context);
 
   const { data } = await client.get("/api/users/currentuser");
-  //You need to take this off to some admin :) one time click
+  // await client.post("/api/products/default");
   return {
     props: {
       ...data,
