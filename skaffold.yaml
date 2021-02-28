@@ -6,7 +6,7 @@ deploy:
       - ./infra/k8s/*
 build:
   local:
-    push: false
+    push: true
   artifacts:
     - image: abdelmounaimazz/auth
       context: auth
