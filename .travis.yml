@@ -22,7 +22,7 @@ before_install:
 
 script:
   - docker build -t abdelmounaimazz/auth:latest -t abdelmounaimazz/auth:$SHA -f ./auth/Dockerfile ./auth
-  - docker build -t abdelmounaimazz/client:latest -t abdelmounaimazz/client:$SHA -f ./client/Dockerfile ./client
+  - docker build -t abdelmounaimazz/client:latest -t abdelmounaimazz/client:$SHA -f ./client/Dockerfile.dev ./client
   - docker build -t abdelmounaimazz/expiration:latest -t abdelmounaimazz/expiration:$SHA -f ./expiration/Dockerfile ./expiration
   - docker build -t abdelmounaimazz/orders:latest -t abdelmounaimazz/orders:$SHA -f ./orders/Dockerfile ./orders
   - docker build -t abdelmounaimazz/payments:latest -t abdelmounaimazz/payments:$SHA -f ./payments/Dockerfile ./payments
