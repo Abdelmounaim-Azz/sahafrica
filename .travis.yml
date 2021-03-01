@@ -1,12 +1,13 @@
 sudo: required
 services:
   - docker
+language: generic
 env:
   global:
     - SHA=$(git rev-parse HEAD)
     - CLOUDSDK_CORE_DISABLE_PROMPTS=1
-    before_install:
-      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+before_install:
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     #   - openssl aes-256-cbc -K $encrypted_0a87eabj907c_key -iv $encrypted_0c35eebf403c_iv -in srv-account.json.enc -out srv-account.json -d
     #   - curl https://sdk.cloud.google.com | bash > /dev/null;
     #   - source $HOME/google-cloud-sdk/path.bash.inc
@@ -37,10 +38,9 @@ script:
   - docker push abdelmounaimazz/auth:$SHA
   - docker push abdelmounaimazz/client:$SHA
   - docker push abdelmounaimazz/orders:$SHA
-  - docker push abdelmounaimazz/peoducts:$SHA
+  - docker push abdelmounaimazz/products:$SHA
   - docker push abdelmounaimazz/payments:$SHA
   - docker push abdelmounaimazz/expiration:$SHA
-  # - docker run -e CI=true abdelmounaimazz/auth-test
   # - docker run -e CI=true abdelmounaimazz/auth-test
   # - docker run -e CI=true abdelmounaimazz/orders-test
   # - docker run -e CI=true abdelmounaimazz/products-test
