@@ -5,8 +5,8 @@ env:
   global:
     - SHA=$(git rev-parse HEAD)
     - CLOUDSDK_CORE_DISABLE_PROMPTS=1
-    # before_install:
-
+    before_install:
+      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     #   - openssl aes-256-cbc -K $encrypted_0a87eabj907c_key -iv $encrypted_0c35eebf403c_iv -in srv-account.json.enc -out srv-account.json -d
     #   - curl https://sdk.cloud.google.com | bash > /dev/null;
     #   - source $HOME/google-cloud-sdk/path.bash.inc
@@ -15,7 +15,6 @@ env:
     #   - gcloud config set project sahafrica
     #   - gcloud config set compute/zone us-central1-a
     #   - gcloud container clusters get-credentials sahafrica
-    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 #   - docker build -t abdelmounaimazz/auth-test -f ./auth/Dockerfile.dev ./auth
 #   - docker build -t abdelmounaimazz/orders-test -f ./orders/Dockerfile.dev ./orders
 #   - docker build -t abdelmounaimazz/products-test -f ./products/Dockerfile.dev ./products
