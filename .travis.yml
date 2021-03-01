@@ -15,9 +15,9 @@ before_install:
   # - gcloud config set compute/zone us-central1-a
   # - gcloud container clusters get-credentials sahafrica
   # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker build -t abdelmounaimazz/auth-test -f ./client/Dockerfile.dev ./auth
-  - docker build -t abdelmounaimazz/orders-test -f ./client/Dockerfile.dev ./orders
-  - docker build -t abdelmounaimazz/products-test -f ./client/Dockerfile.dev ./products
+  - docker build -t abdelmounaimazz/auth-test -f ./auth/Dockerfile.dev ./auth
+  - docker build -t abdelmounaimazz/orders-test -f ./orders/Dockerfile.dev ./orders
+  - docker build -t abdelmounaimazz/products-test -f ./products/Dockerfile.dev ./products
 
 script:
   - docker run -e CI=true abdelmounaimazz/auth-test
