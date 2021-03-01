@@ -2,6 +2,10 @@
 
 **Sahafrica** is a muti-service fullstack app that uses an event driven architecture (nats streaming server) to communicate between each service.
 
+## App architecture
+
+![Architecture](https://i.ibb.co/Rcky4Xd/sahafrica-architecture.png)
+
 ### containers running successfully(docker+k8s)
 
 ![Containers](https://i.ibb.co/MBfmxny/image.png)
