@@ -24,6 +24,8 @@ build:
         manual:
           - src: "**/*.js"
             dest: .
+          - src: "**/*.css"
+            dest: .
     - image: abdelmounaimazz/products
       context: products
       docker:
