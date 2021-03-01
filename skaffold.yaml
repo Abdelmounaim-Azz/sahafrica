@@ -19,7 +19,7 @@ build:
     - image: abdelmounaimazz/client
       context: client
       docker:
-        dockerfile: Dockerfile
+        dockerfile: Dockerfile.dev
       sync:
         manual:
           - src: "**/*.js"
