@@ -1,6 +1,7 @@
 sudo: required
 services:
   - docker
+language: generic
 env:
   global:
     - SHA=$(git rev-parse HEAD)
@@ -37,10 +38,9 @@ script:
   - docker push abdelmounaimazz/auth:$SHA
   - docker push abdelmounaimazz/client:$SHA
   - docker push abdelmounaimazz/orders:$SHA
-  - docker push abdelmounaimazz/peoducts:$SHA
+  - docker push abdelmounaimazz/products:$SHA
   - docker push abdelmounaimazz/payments:$SHA
   - docker push abdelmounaimazz/expiration:$SHA
-  # - docker run -e CI=true abdelmounaimazz/auth-test
   # - docker run -e CI=true abdelmounaimazz/auth-test
   # - docker run -e CI=true abdelmounaimazz/orders-test
   # - docker run -e CI=true abdelmounaimazz/products-test
