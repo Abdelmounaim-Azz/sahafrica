@@ -6,6 +6,12 @@
 
 ![Architecture](https://i.ibb.co/Rcky4Xd/sahafrica-architecture.png)
 
+## code sharing
+
+all services share some logic between them,such as seeing if user loged in,custom error handling.[azz-sahafrica](https://www.npmjs.com/package/azz-sahafrica "common library") serves as a common library to share code with these services instead of just copy pasting.
+
+---
+
 ### containers running successfully(docker+k8s)
 
 ![Containers](https://i.ibb.co/MBfmxny/image.png)
@@ -40,12 +46,6 @@
 ![Containers](https://i.ibb.co/0X6tyCG/image.png)
 ![Containers](https://i.ibb.co/KF8F6RM/image.png)
 ![Containers](https://i.ibb.co/XW4GtQc/image.png)
-
----
-
-## code sharing
-
-all services share some logic between them,such as seeing if user loged in,custom error handling.[azz-sahafrica](https://www.npmjs.com/package/azz-sahafrica "common library") serves as a common library to share code with these services instead of just copy pasting.
 
 ---
 
