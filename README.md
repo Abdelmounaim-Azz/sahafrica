@@ -4,7 +4,7 @@
 
 ## App architecture
 
-![Architecture](https://i.ibb.co/Rcky4Xd/sahafrica-architecture.png)
+![Architecture](https://i.ibb.co/myZdgRV/68747470733a2f2f692e6962622e636f2f52636b793458642f7361686166726963612d6172636869746563747572652e706e.png)
 
 ## code sharing
 
