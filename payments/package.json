@@ -27,6 +27,7 @@
     "node-nats-streaming": "^0.3.2",
     "stripe": "^8.129.0",
     "ts-node-dev": "^1.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "winston": "^3.3.3"
   }
 }
